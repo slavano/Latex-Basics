@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%%% Packages %%%%%%%%%%%%%%%%%%%% 
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%% Package Specific Set Up %%%%%%%%%%%%%%%%%%%%%%%%
+\lstset { %
+    language=C++,
+    backgroundcolor=\color{black!5}, % set backgroundcolor
+    basicstyle=\footnotesize,% basic font setting
+}
+%%%%%%%%%%%%
+
+%%%%%%%Formatting preferences%%%%%%%%%%%%%%
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%%%%%%%%%%%%%%%%%%%%%%%% Assignment Header Information %%%%%%%%%%%%%%%%%%%% {
+\newcommand\course{CS 201-002}
+\newcommand\semester{Winter 2020}
+\newcommand\hwnumber{4}                 % <-- ASSIGNMENT #
+\newcommand\NetIDa{William Shatner}           % <-- YOUR NAME
+\newcommand\NetIDb{123456789}           % <-- STUDENT ID #
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% }
+
+%%%%%%%More Formatting preferences%%%%%%%%%%%%%%
+\pagestyle{fancyplain}
+\headheight 35pt
+\lhead{\NetIDa}
+\lhead{\NetIDa\\\NetIDb}                 
+\chead{\textbf{\Large Assignment \hwnumber}}
+\rhead{\course \\ \semester}
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\begin{document}
+
+\section*{Task 1}
+
+%%%%%%%%%%A Tabular format for multiple questions per task
+\begin{enumerate}%%[a)]  %% <---- uncomment to make the tabulation alphabetical
+    \item 
+\end{enumerate}
+
+
+
+\end{document}
